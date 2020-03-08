@@ -3,24 +3,26 @@ Alfred workflow to search for an emoji by category
 
 ![alfredCat](https://user-images.githubusercontent.com/47395660/76165274-5048f480-615e-11ea-9e83-d133f4e96e72.gif)
 
-# About
+## About
 This workflow allows you to quickly find and paste an emoji while you're typing something.
 
 I like to use a workflow instead of snippets because it's easier to find an emoji by further categorization terms.
 
-If you're missing some emojis you probably need to upgrade OSX, or just [update emoji fonts](https://github.com/joypixels/emojione/tree/master/extras/fonts)
+If you see some missing emojis (question mark instead of emoji), you're probably using an older OSX. You may need to upgrade it, or just [update the emoji font](https://github.com/joypixels/emojione/tree/master/extras/fonts)
 
 This project was inspired by [emoji-fzf](https://github.com/mvertescher/emoji-fzf)
 
-# Installation
+## Installation
 Download the [workflow](https://raw.githubusercontent.com/avielsh/alfred-catemoji-workflow/master/alfred-catemoji.alfredworkflow) and double
 click to import to alfred.
 
-You can assign a hotkey to the workflow in order to quickly access emojis
+You may assign a hotkey in the workflow to accelerate your flow.
 
-# Usage
-`em <term>` - Search for an emoji, further terms will filter the results
+## Usage
+### Triggers
+`em <term>` - Search an emoji, further terms will filter the results.
+`emw <term>` - Search using whole word search.
+`emr` - Access recently used emojis.
 
-`emw <term>` - Search for an emoji using whole word search
-
-`emr` - View recently used emojis
+### Modifiers
+`Ctrl` - Continuously add emojis (reopen alfred after every execution).
