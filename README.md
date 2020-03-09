@@ -31,7 +31,7 @@ You may assign a hotkey in the workflow to accelerate your flow.
 
 ### Adding categories
 
-![Adding Categories](https://user-images.githubusercontent.com/47395660/76264257-ef0e4780-6269-11ea-948f-abfb64b8bbcf.png)
+![Adding Categories](https://user-images.githubusercontent.com/47395660/76264257-ef0e4780-6269-11ea-948f-abfb64b8bbcf.png | width=560)
 
 You may add your own categories in the following way
 
