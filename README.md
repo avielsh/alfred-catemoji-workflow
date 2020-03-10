@@ -3,8 +3,6 @@ This workflow allows to quickly find and paste an emoji.
 
 Because I type a lot of emojis, I prefer to use a workflow instead of snippets because it's easier and faster to find an emoji using different search terms.
 
-This project was inspired by [emoji-fzf](https://github.com/mvertescher/emoji-fzf)
-
 ![alfredCat](https://user-images.githubusercontent.com/47395660/76165274-5048f480-615e-11ea-9e83-d133f4e96e72.gif)
 
 ## Installation
@@ -44,12 +42,14 @@ To add a tag
 3. Repeat until satisfaction.
 3. Press `Enter` to paste to the front window.
 
-To create a new group from the selected emojis, append `|` and than some type some tags.
+To create a new group from the selected emojis, append `|` and then type some tags.
 
 💡 To quickly access groups, type `G` ( capital ) as the search term.
 
 ### Troubleshooting
 - Some emojis are displayed as question marks - This workflow uses the emoji-v12.0 font. To fix missing emojis, try upgrading OSX, or just [update the emoji font](https://github.com/joypixels/emojione/tree/master/extras/fonts).
 
+### Thank yous
 
+This project was inspired by [emoji-fzf](https://github.com/mvertescher/emoji-fzf)
 
